@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  cursor: none;
+}
+
+.textone {
+  text-transform: uppercase;
+  font-family: "Arial Rounded MT Bold";
+  font-weight: normal;
+  font-size: 8vw;
+  color: white;
+  background-color: white;
+  text-align: center;
+}
+
+.textone:hover {
+  background-color: green;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+.texttwo {
+  text-transform: uppercase;
+  font-family: "Arial Rounded MT Bold";
+  font-weight: normal;
+  font-size: 8vw;
+  color: white;
+  background-color: white;
+  text-align: center;
+}
+
+.texttwo:hover {
+  color: red;
+}
+
+.webring {
+  background-color: white;
+  z-index: 10000;
+  font-family: "Arial Rounded Mt Bold";
+  width: 100vw;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-size: 2.3vw;
+  text-align: center;
+}
+
+.webring:hover {
+  background-color: red;
+}
+
+.webring a:hover {
+  background-color: white;
+  color: green;
+}
+
+.webring a {
+  color: white;
+  font-family: "Arial Rounded Mt Bold";
+  border-bottom: 0;
+  text-align: center;
+}
+
+.webringarrow a {
+  color: white;
+  font-family: "Arial Rounded Mt Bold";
+  border-bottom: 0;
+  font-size: 5vw;
+  text-align: center;
+  text-decoration: none;
+}
+
+.webringarrow,
+.webringinfo {
+  padding: 1.5vw;
+}
+
+.wrapper {
+  margin: 30px auto;
+  width: 400px;
+  cursor: pointer;
+  position: center;
+}
+
+#cursor {
+  position: absolute;
+  width: 3000px;
+  height: 3000px;
+  box-sizing: border-box;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  background-image: url("https://cdn.glitch.global/9f0d80ff-6f73-4341-8555-a12aee54c6b7/hand50004.png?v=1649776495064");
+  background-size: 3000 3000;
+}
+
